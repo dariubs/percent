@@ -11,9 +11,20 @@ go get github.com/dariubs/percent.go
 Usage
 -----
 ```go
-percent.Calculate(part, all) // return calculated percent of part in all
+/*
+* Calculate what is [percent]% of [number]
+*/
+percent.Percent(25, 2000) // return 500
 
-percent.Calculate(10, 50) // return 20
+/*
+* Calculate [number1] is what percent of [number2]
+*/
+percent.PercentOf(300, 2400) // return 12.5
+
+/*
+* What is the percentage increase/decrease from [number1] to [number2]
+*/
+percent.Change(20, 60) // return 200
 ```
 
 License
