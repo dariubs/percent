@@ -1,9 +1,17 @@
 package percent
 
-// Percent calculate what is [percent]% of [number]
+// Percent calculate what is [percent]% of [number] using int values.
 // For Example 25% of 200 is 50
 // It returns result as float64
 func Percent(pcent int, all int) float64{
+  percent := ((float64(all) * float64(pcent)) / float64(100))
+  return percent
+}
+
+// Percent calculate what is [percent]% of [number] using float values.
+// For Example 0.3% of 200 is 0.6
+// It returns result as float64
+func PercentFloat(pcent float64, all int) float64{
   percent := ((float64(all) * float64(pcent)) / float64(100))
   return percent
 }
