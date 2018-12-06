@@ -1,15 +1,15 @@
-percent.go [![Build Status](https://travis-ci.org/dariubs/percent.svg?branch=master)](https://travis-ci.org/dariubs/percent) [![GoDoc](https://godoc.org/github.com/dariubs/percent?status.svg)](https://godoc.org/github.com/dariubs/percent)
-=======
+# percent.go [![Build Status](https://travis-ci.org/negah/percent.svg?branch=master)](https://travis-ci.org/negah/percent) [![GoDoc](https://godoc.org/github.com/negah/percent?status.svg)](https://godoc.org/github.com/negah/percent)
+
 Calculate percentage in Golang.
 
-Install
--------
+## Install
+
 ```shell
-go get github.com/dariubs/percent
+go get github.com/negah/percent
 ```
 
-Usage
------
+## Usage
+
 ```go
 /*
 * Calculate what is [percent]% of [number]
@@ -27,15 +27,14 @@ percent.PercentOf(300, 2400) // return 12.5
 percent.Change(20, 60) // return 200
 ```
 
-Documentation
--------------
-[GoDoc](https://godoc.org/github.com/dariubs/percent)
+## Documentation
 
+[GoDoc](https://godoc.org/github.com/negah/percent)
 
-License
--------
+## License
+
 MIT
 
-Author
-------
+## Author
+
 Dariush Abbasi ([@dariubs](https://github.com/dariubs) )
