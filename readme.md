@@ -1,13 +1,13 @@
 # percent.go
 
-[![Build Status](https://travis-ci.org/negah/percent.svg?branch=master)](https://travis-ci.org/negah/percent) [![GoDoc](https://godoc.org/github.com/negah/percent?status.svg)](https://godoc.org/github.com/negah/percent) [![Go Report Card](https://goreportcard.com/badge/github.com/negah/percent)](https://goreportcard.com/report/github.com/negah/percent)
+[![Build Status](https://travis-ci.org/dariubs/percent.svg?branch=master)](https://travis-ci.org/dariubs/percent) [![GoDoc](https://godoc.org/github.com/dariubs/percent?status.svg)](https://godoc.org/github.com/dariubs/percent) [![Go Report Card](https://goreportcard.com/badge/github.com/dariubs/percent)](https://goreportcard.com/report/github.com/dariubs/percent)
 
 Calculate percentage in Golang.
 
 ## Install
 
 ```shell
-go get github.com/negah/percent
+go get github.com/dariubs/percent
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ percent.Change(20, 60) // return 200
 
 ## Documentation
 
-[GoDoc](https://godoc.org/github.com/negah/percent)
+[GoDoc](https://godoc.org/github.com/dariubs/percent)
 
 ## License
 
