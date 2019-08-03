@@ -39,3 +39,12 @@ func TestChange(t *testing.T) {
 		t.Fatalf("%f is Wrong percent!", pcent)
 	}
 }
+
+func TestChangeFloat(t *testing.T) {
+	before, after := 5.00, 100.00
+	pcent := ChangeFloat(before, after)
+
+	if int(pcent) != 1900 {
+		t.Fatalf("%f is Wrong percent!", pcent)
+	}
+}
