@@ -34,3 +34,13 @@ func Change(before int, after int) float64 {
 
 	return percentDiff
 }
+
+// Change calculate what is the percentage increase/decrease from [number1] to [number2]
+// For example 60 is 200% increase from 20
+// It returns result as float64
+func ChangeFloat(before float64, after float64) float64 {
+	diff := after - before
+	realDiff := diff / float64(before)
+	percentDiff := 100 * realDiff
+	return percentDiff
+}
