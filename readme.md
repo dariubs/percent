@@ -27,7 +27,8 @@ percent.PercentOf(300, 2400) // return 12.5
 /*
 * Calculate what is the percentage increase/decrease from [number1] to [number2]
 */
-percent.Change(20, 60) // return 200
+percent.Change(20, 60) // return 200.0
+percent.ChangeFloat(20.0, 60.0) // return 200.0
 ```
 
 ## Documentation
