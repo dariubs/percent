@@ -15,7 +15,7 @@ go get github.com/dariubs/percent
 ```go
 // Percent - calculate what %[number1] of [number2] is.
 percent.Percent(25, 2000) // return 500
-percent.PercentFloat(25.0, 2000) // return 500.0
+percent.PercentFloat(25.0, 2000.0) // return 500.0
 
 // PercentOf - calculate what percent [number1] is of [number2].
 percent.PercentOf(300, 2400) // return 12.5
