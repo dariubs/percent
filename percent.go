@@ -1,46 +1,37 @@
 package percent
 
-// Percent calculate what is [percent]% of [number] using int values.
-// For Example 25% of 200 is 50
-// It returns result as float64
-func Percent(pcent int, all int) float64 {
-	percent := ((float64(all) * float64(pcent)) / float64(100))
-	return percent
+// Percent - calculate what %[number1] of [number2] is.
+// ex. 25% of 200 is 50
+func Percent(percent int, all int) float64 {
+	return ((float64(all) * float64(percent)) / float64(100))
 }
 
-// PercentFloat calculate what is [percent]% of [number] using float values.
-// For Example 0.3% of 200 is 0.6
-// It returns result as float64
-func PercentFloat(pcent float64, all int) float64 {
-	percent := ((float64(all) * float64(pcent)) / float64(100))
-	return percent
+// PercentFloat - calculate what %[number1] of [number2] is.
+// ex. 25% of 200 is 50
+func PercentFloat(percent float64, all float64) float64 {
+	return ((float64(all) * float64(percent)) / float64(100))
 }
 
-// PercentOf calculate [number1] is what percent of [number2]
-// For example 300 is 12.5% of 2400
-// It returns result as float64
-func PercentOf(current int, all int) float64 {
-	percent := (float64(current) * float64(100)) / float64(all)
-	return percent
+// PercentOf - calculate what percent [number1] is of [number2].
+// ex. 300 is 12.5% of 2400
+func PercentOf(part int, total int) float64 {
+	return (float64(part) * float64(100)) / float64(total)
 }
 
-// Change calculate what is the percentage increase/decrease from [number1] to [number2]
-// For example 60 is 200% increase from 20
-// It returns result as float64
+// PercentOf - calculate what percent [number1] is of [number2].
+// ex. 300 is 12.5% of 2400
+func PercentOfFloat(part float64, total float64) float64 {
+	return (float64(part) * float64(100)) / float64(total)
+}
+
+// Change - calculate the percent increase/decrease from two numbers.
+// ex. 60 is a 200.0% increase from 20
 func Change(before int, after int) float64 {
-	diff := float64(after) - float64(before)
-	realDiff := diff / float64(before)
-	percentDiff := 100 * realDiff
-
-	return percentDiff
+	return 100 * ((float64(after) - float64(before)) / float64(before))
 }
 
-// Change calculate what is the percentage increase/decrease from [number1] to [number2]
-// For example 60 is 200% increase from 20
-// It returns result as float64
+// ChangeFloat - calculate the percent increase/decrease from two numbers.
+// ex. 60.0 is a 200.0% increase from 20.0
 func ChangeFloat(before float64, after float64) float64 {
-	diff := after - before
-	realDiff := diff / float64(before)
-	percentDiff := 100 * realDiff
-	return percentDiff
+	return 100 * ((after - before) / float64(before))
 }
