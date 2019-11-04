@@ -18,7 +18,7 @@ func PercentOf(part int, total int) float64 {
 	return (float64(part) * float64(100)) / float64(total)
 }
 
-// PercentOf - calculate what percent [number1] is of [number2].
+// PercentOfFloat - calculate what percent [number1] is of [number2].
 // ex. 300 is 12.5% of 2400
 func PercentOfFloat(part float64, total float64) float64 {
 	return (float64(part) * float64(100)) / float64(total)
