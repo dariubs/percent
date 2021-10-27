@@ -1,7 +1,7 @@
 percent.go
 ==========
 
-[![Build Status](https://travis-ci.org/dariubs/percent.svg?branch=master)](https://travis-ci.org/dariubs/percent) [![GoDoc](https://godoc.org/github.com/dariubs/percent?status.svg)](https://godoc.org/github.com/dariubs/percent) [![Go Report Card](https://goreportcard.com/badge/github.com/dariubs/percent)](https://goreportcard.com/report/github.com/dariubs/percent)
+[![GoDoc](https://godoc.org/github.com/dariubs/percent?status.svg)](https://godoc.org/github.com/dariubs/percent) [![Go Report Card](https://goreportcard.com/badge/github.com/dariubs/percent)](https://goreportcard.com/report/github.com/dariubs/percent)
 
 Calculate percentage in Golang.
 
