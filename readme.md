@@ -1,5 +1,5 @@
-percent.go
-==========
+golang percent package
+======================
 
 ![test workflow](https://github.com/dariubs/percent/actions/workflows/test.yml/badge.svg) [![GoDoc](https://godoc.org/github.com/dariubs/percent?status.svg)](https://godoc.org/github.com/dariubs/percent) [![Go Report Card](https://goreportcard.com/badge/github.com/dariubs/percent)](https://goreportcard.com/report/github.com/dariubs/percent)
 
